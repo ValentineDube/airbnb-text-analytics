@@ -10,9 +10,15 @@
 .Ruserdata
 *.Rproj
 
-# --- Generated outputs ---
+# --- Generated outputs (charts the R script writes to the repo root) ---
 airbnb_clean.csv
-*.png
+/*.png
+sentiment_words.png
+afinn_words.png
+airbnb_tfidf.png
+airbnb_bigrams.png
+lda_topics.png
+# (committed visuals live in docs/images/ and are tracked)
 
 # --- OS / editor cruft ---
 .DS_Store
