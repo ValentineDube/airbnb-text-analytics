@@ -1,0 +1,8 @@
+# Copy this file to ".Renviron" (same folder) and fill in your own connection
+# string. R loads .Renviron automatically on startup. .Renviron is gitignored,
+# so your credentials stay out of source control.
+#
+# Format:
+#   MONGO_URI=mongodb+srv://<username>:<password>@<cluster-host>/?appName=<app>
+
+MONGO_URI=mongodb+srv://USERNAME:PASSWORD@CLUSTER-HOST/?appName=Cluster0

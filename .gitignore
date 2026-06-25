@@ -1,0 +1,19 @@
+# --- Secrets / credentials (NEVER commit) ---
+.Renviron
+.env
+*.pem
+
+# --- R session / history ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# --- Generated outputs ---
+airbnb_clean.csv
+*.png
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
